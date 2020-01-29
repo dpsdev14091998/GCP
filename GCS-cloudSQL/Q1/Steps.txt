@@ -1,0 +1,14 @@
+Steps to host a Static Website
+
+1. Create a bucket in GCS.
+2. Upload a html file.
+3. In the file options, click on Edit Permissions.
+4. Click on Add Item.
+5. Enter the following in the respective columns
+Entity-User
+Name-allUsers
+Access- Reader
+6. Click on Save.
+7. Public Access is assigned to the file.
+8. Click on the IP generated.
+9. Finally the static Website is created.
